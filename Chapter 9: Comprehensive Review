@@ -1,0 +1,52 @@
+Question 1: Which statements describe benefits of using open source software? (Choose two.)
+
+Question 2: Which of the following commands uses one option and two arguments?
+
+Question 3: Which option, when added to many commands, will display a list of available options for the command?
+
+Question 4: Which Bash shortcut is used to show available options for completing commands, file names, and options?
+
+Question 5: System administration binaries, for root use, are located in which directory?
+
+Question 6: Which directory contains files needed in order to start the boot process?
+
+Question 7: Which directory contains special device files that are used by the system to access hardware?
+
+Question 8:
+  [student@desktopX ~]$ pwd
+ /home/student
+ [student@desktopX ~]$ ls -l
+ drwxrwxr-x. 4 student student 4096 Apr 11 06:46 guides
+ drwxrwxr-x. 3 student student 4096 Apr 11 06:46 foo
+ -rw-rw-r--. 1 student student 135 Mar 22 20:42 pub1
+ -rw-rw-r--. 1 student student 151 Apr 12 08:25 pub2
+ -rw-rw-r--. 1 student student 135 Mar 22 20:42 pub3
+    -rw-rw-r--. 1 student student 151 Apr 12 08:25 pub4
+ Given the directory information shown above, which commands will change the directory to foo? (Choose two.)
+
+
+Question 9: Which command will remove the old_stuff directory and all of it contents?
+
+Question 10: After issuing the command echo I am logged in as $(whoami) and own the files file[abc].txt, which of the following could be valid output? (Choose two.)
+
+Question 11: When editing a file with the vim editor, which command will discard all changes and exit?
+
+Question 12: Which item best describes the result of the command sudo vim /etc/hosts?
+
+Question 13: Which command will add the student user to the supplementary group wheel without changing any other group membership?
+
+Question 14: Which command will change the file permissions to file.txt so that the owner can read and modify the file, the group can read, and others have no access?
+
+Question 15: Which command is used to change the group associated with a file?
+
+Question 16: Using the information presented above, which command will ensure new files in the directory /tmp/shared will inherit the group ownership of team?
+[alice@serverX ~]$ ls -ld /tmp/shared
+drwxrwxr-x. 2 alice team 34 Jan 26 18:46 /tmp/shared 
+
+Question 17: Which command will resume a stopped job in the foreground?
+
+Question 18: Which key sequence will suspend a job and resume it in the background?
+
+Question 19: Which command will update the zsh package if it is already installed?
+
+Question 20: Which commands will show yum transaction history? (Choose two.)
