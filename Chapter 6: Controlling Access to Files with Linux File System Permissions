@@ -1,0 +1,38 @@
+Quiz: Interpreting File and Directory Permissions
+
+-------------------------------------------------
+
+Users and their groups:
+      
+	wilma 	wilma,flintstone
+	fred 	fred,flintstone
+	betty 	betty,rubble
+	barney 	barney,rubble
+      
+File attributes (permissions, user and group ownership, name):
+      
+	drwxrwxr-x  fred  flintstone  dir (which contains the following files)
+	  -rw-rw-r--   wilma  wilma       lfile1
+	  -rw-r--rw-   wilma  flintstone  lfile2
+	  -rw-rw-r--   fred   flintstone  rfile1
+	  -rw-r-----   fred   flintstone  rfile2
+    
+-------------------------------------------------      
+
+Question 1: Using the information presented above, which file is owned by fred and readable by all users?
+Answer: rfile1
+
+Question 2: Using the information presented above, which file may be modified by the user betty?
+Answer: lfile2
+
+Question 3: Using the information presented above, which file cannot be read by the user barney?
+Answer: rfile2
+
+Question 4: Using the information presented above, which file has a group ownership of wilma?
+Answer: lfile1
+
+Question 5: Using the information presented above, which file(s) can be deleted by the user fred?
+Answer: all
+
+Question 6: Using the information presented above, which file(s) can be deleted by the user barney?
+Answer: none
